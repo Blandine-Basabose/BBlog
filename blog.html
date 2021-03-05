@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>My Blog</title>
+    <meta name="viewport content="width=device-width, initial-scale="1" > 
+    <link rel="stylesheet" type="text/css" href="blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#" onclick="document.getElementById('log').style.display= 'block'">Sign in</a>
+        <a class="active" href="#">About us</a>
+        <a class="active" href="blog.html">Home</a>
+    
+        <img src="Images/BB-Logo-Final-1024x1024.jpg" class="logo">
+    </div>
+    <div class="search-container">
+        <form>
+            <input type="text" placeholder="Search..." name="search" class="input-search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+
+        </form>
+
+    </div>
+    <div class="sidenav">
+        <h2 style="margin-left:10px">Categories</h2>
+        <a href="https://www.youtube.com/results?search_query=testimony+stories">Testmony</a>
+        <a href="https://www.youtube.com/results?search_query=inspirational+stories">Inspiration stories</a>
+        <a href="https://www.youtube.com/results?search_query=funny+stories">Funny Post</a>
+        <a href="https://www.youtube.com/results?search_query=video+blogs">Video Blogs</a>
+        <a href="https://www.youtube.com/results?search_query=interviews">Interviews</a>
+        <a href="https://www.youtube.com/results?search_query=case+studies">Case studies</a>
+        <a href="https://www.youtube.com/results?search_query=local+news">Local News</a>
+        <a href="https://www.youtube.com/results?search_query=entertainment">Entertainment</a>
+
+    </div>
+
+
+<div class="card-container">
+    <h2  font-family="times new roman"><i>POPULAR ARTICLES</i></h2>
+    <a href="./display.html"><div class="card">
+           <div><h3>Informational</h3>
+               <img src="Images/0009166108.jpg" class="image">
+               <p><i>"The 3-2-1 Newsletter is one of the most popular newsletters in the world."</i></p>
+           </div>
+        </a>
+    </div>
+    <a href="./display.html"><div class="card">
+           <div><h3> Inspirational</h3>
+               <img src="Images/autumn-tree-1382832.jpg"class="image">
+               <p><i>"Here’s the 10 favorite articles on inspiration I’ve written here at The Future Buzz – I hope they help you:"</i></p>
+           </div></a>
+    </div>
+    <a href="./display.html"><div class="card">
+           <div><h3> Entertainment</h3>
+               <img src="Images/fashion.jpg" class="image">
+               <p><i>"Are Muslim women being asked to change too much of themselves in order to fit in?"</i></p>
+           </div></a>
+    </div>
+    <a href="./display.html"><div class="card">
+           <div><h3> Focus</h3>
+               <img src="Images/images.jpg" class="image">
+               <p><i>
+                   "Make Your Life Better by Saying Thank You in These 7 Situations"</i></p>
+           </div></a>
+    </div>
+    <a href="./display.html"><div class="card">
+           <div><h3> Motivation</h3>
+               <img src="Images/rosary-1566816_1920.jpg" class="image">
+               <p><i>"The Evolution of Anxiety: Why We Worry and What to Do About It"</i></p>
+           </div></a>
+    </div>
+    <a href="./display.html"><div class="card">
+           <div><h3> Crearivity</h3>
+               <img src="Images/womaninspired_logo_design4.jpg" class="image">
+               <p><i>"The Akrasia Effect: Why We Don’t Follow Through on What We Set Out to Do and What to Do About It:"</i></p>
+           </div></a>
+    </div>
+    <a href="./display.html"><div class="card">
+        <div><h3> Life lessons</h3>
+            <img src="Images/images (1).jpg" class="image">
+            <p><i>"A few years ago, I came across this interesting concept about work-life balance called The Four Burners Theory."</i></p>
+        </div></a>
+ </div><a href="./display.html"><div class="card">
+    <div><h3> Self improvements</h3>
+        <img src="Images/images (2).jpg" class="image">
+        <p><i>"The examples I use primarily draw from the business world, but many of the lessons hold true for life as well. "</i></p>
+    </div></a>
+</div><a href="./display.html"><div class="card">
+    <div><h3> Habits</h3>
+        <img src="Images/images (3).jpg" class="image">
+        <p><i>"The power of the environment is one of my favorite themes when it comes to discussing our habits and behavior." </i></p>
+    </div></a>
+</div><a href="./display.html"><div class="card">
+    <div><h3> Interviews</h3>
+        <img src="Images/images (4).jpg" class="image">
+        <p><i>"Frequently Asked Questions(FAQs)for an interview and their answers"</i></p>
+    </div></a>
+</div><a href="./display.html"><div class="card">
+    <div><h3> Decision making</h3>
+        <img src="Images/images (5).jpg" class="image">
+        <p><i>"Why we eat the way we do and what to do about it, why we tend to eat so much junk food and why we overeat?"</i></p>
+    </div></a>
+</div><a href="./display.html"><div class="card">
+    <div><h3> Pets</h3>
+        <img src="Images/images (6).jpg" class="image">
+        <p><i>"Another one of my comprehensive guides dived into the science of sleep."</i></p>
+    </div></a>
+
+    <form id="log">
+
+    <h2>Login</h2>
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+        
+    <button type="submit">Login</button><br><br>
+    <button onclick="document.getElementById('log').style.display= 'none'" type="submit">Cancel</button>
+
+    </form>
+
+   
+</body>
+</html>
